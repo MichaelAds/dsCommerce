@@ -2,7 +2,6 @@ package com.devsuperior.dscommerce.services;
 
 import com.devsuperior.dscommerce.dto.OrderDTO;
 import com.devsuperior.dscommerce.dto.OrderItemDTO;
-import com.devsuperior.dscommerce.dto.ProductDTO;
 import com.devsuperior.dscommerce.entities.*;
 import com.devsuperior.dscommerce.repository.OrderItemRepository;
 import com.devsuperior.dscommerce.repository.OrderRepository;
@@ -13,7 +12,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
-import java.util.Optional;
 
 @Service
 public class OrderService {
